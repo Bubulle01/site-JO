@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <meta charset="utf-8" />
+        <title>Accueil Jeux Olympiques 2024</title>
+        <meta name="description" content="Accueil des JO 2024" />
+        <meta name="keywords" content="" />
+        <script src="jsAccueil.js"></script>
+        <style>
+            header{
+                height: 100vh;
+                width: auto;
+            }
+            header h1{
+                color : var(--spectralon);
+                position : absolute;
+                top : 120px;
+                left : 50%;
+                transform: translateX(-50%);
+                text-align: center;
+            }
+            header img{
+                position: absolute;
+                bottom: 30px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            main>section>nav{
+                padding-top : 30px;
+            }
+            main>section:nth-child(2)>img{
+                height : 250px;
+                float : right;
+            }
+            main>section:nth-child(3)>div{
+                display : grid;
+                gap : 1em;
+                grid-template-columns: 28% 28% 28%;
+            }
+            main>section:nth-child(3)>div>figure>img{
+                width: 230px;
+                border-radius: 20px;
+            }
+            main>section:nth-child(3)>div>figure{
+                margin-left: -17px;
+            }
+            main>section:nth-child(3){
+                width : 70%;
+            }
+            main>section:nth-child(5) img{
+                width : 300px;
+            }
+            main>section:nth-child(5){
+                width : 75%;
+            }
+            main>section:nth-child(5)>figure>figcaption{
+                text-align: center;
+            }
+            main>section:nth-child(6)>figure>img{
+                width: 300px;
+            }
+            main>section:nth-child(6)>figure>figcaption{
+                text-align: center;
+            }
+            main>section:nth-child(8)>figure>img{
+                width: 300px;
+            }
+            main>section:nth-child(8)>figure>figcaption{
+                text-align: center;
+            }
+            main>section:nth-child(9)>div{
+                display : grid;
+                grid-template-columns: 13% 13% 13% 13% 13% 13% 13%;
+            }
+            main>section:nth-child(9)>div img{
+                width: 90px;
+                filter: invert(1);
+            }
+            main>section:nth-child(10)>div{
+                display : grid;
+                grid-template-columns : 24% 24% 24% 24%;
+            }
+            main>section:nth-child(10)>div>figure>img{
+                width: 150px;
+            }
+            main>section:nth-child(11)>div{
+                display : grid;
+                grid-template-columns : 16% 16% 16% 16% 16% 16%;
+            }
+            main>section:nth-child(11)>div>figure>img{
+                height: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="topP"></div>
+        <img src= "i/bgAcceuil.webp">
+        <nav>
+            <a href="acceuil.html"><button type="button" >Accueil</button></a>
+            <a href="discipline.html"><button type="button">Discipline</button></a>
+            <span>
+                <a href="acceuil.html">
+                    <span>PARIS</span>
+                    <img src="i/logo2024.webp" alt="logo jo 2024" />
+                    <span>2024</span>
+                </a>
+            </span>
+            <a href="epreuve.html"><button type="button">Epreuves</button></a>
+            <a href="sportifs.html"><button type="button">Sportifs</button></a>
+        </nav>
+        <nav>
+            <details>
+                <summary>
+                    <span>
+                        <span>
+                            <img src="i/hamburger.webp" alt="menu">
+                            <img src="i/hamburgCross.webp" alt="menu">
+                        </span>
+                            <a href="acceuil.html">
+                            <span>PARIS</span>
+                            <img src="i/logo2024.webp" alt="logo jo 2024" />
+                            <span>2024</span>
+                        </a>
+                    </span>
+                </summary>
+                <div>
+                    <a href="acceuil.html"><button type="button" >Accueil</button></a>
+                    <a href="discipline.html"><button type="button">Discipline</button></a>
+                    <a href="epreuve.html"><button type="button">Epreuves</button></a>
+                    <a href="sportifs.html"><button type="button">Sportifs</button></a>
+                </div>
+            </details>
+        </nav>
+        <aside>
+            <nav>
+                <a href="#topP"><button>Retour en haut</button></a>
+            </nav>
+        </aside>
+        <header>
+            <!-- faire changer de couleur grace au css de H-->
+            <h1>
+                Jeux Olympiques <br>
+                Paris 2024
+            </h1>
+            <a href= "#flecheBas"><img src="i/downArrow.webp" id="flecheBas" class="dap" alt="down arrow"></a>
+        </header>
+        <main>
+            <!--1 : paralympique-->
+            <section class="sectionLeft">
+                <h2>Les jeux Paralympiques</h2>
+                <img class="fltr" width="250px" height="auto" src="i/logoPara.webp" alt="logo escrime sabre">
+                <p>
+                    Si vous avez aimé les Jeux Olympiques vous ne serez pas déçus par les Jeux Paralympiques ! <br>
+                    Depuis de nombreuses années nous valorisons l'inclusivité aux Jeux Olympiques. De nombreux athlètes <br>
+                    invalide du monde entier viennent participer aux Jeux Olympiques et montrer qu'ils peuvent transformer <br>
+                    leurs handicap en force.
+               </p>
+                <nav>
+                    <a href="#">
+                        <button>
+                            <span>
+                                En voir plus >
+                            </span>
+                        </button>
+                    </a>
+                </nav>
+            </section>
+            <!--2 : flamme-->
+            <section class="sectionRight">
+                <img src= "i/flamme.webp">
+                <h2>Relais de la flamme olympique</h2>
+                <p> Comme toutes les cérémonies la flamme est partie depuis la Grèce, elle<br>
+                    a ensuite été transportée par de nombreuses personalitées toutes plus incroyables<br>
+                    les unes que les autres.<br>
+                    Durant son periple la flamme a parcouru la Grèce avant de prendre le large<br>
+                    pour arriver en France à Marseille. Elle a ensuite été visiter plus de <br>
+                    deux tier des département français.
+                </p>
+                <nav>
+                    <a href="#">
+                        <button>
+                            <span>
+                                En voir plus >
+                            </span>
+                        </button>
+                    </a>
+                </nav>
+            </section>
+            <!--3 : cérémonie-->
+            <section class="sectionLeft">
+                <h2>découvrez le déroulement des cérémonies</h2>
+                <div class= "grid238">
+                    <figure class= "col">
+                        <img src= "i/tyOuverture.webp">
+                        <figcaption>Ouverture</figcaption>
+                    </figure>
+                    <figure class= "col">
+                        <img src= "i/tyCloture.webp">
+                        <figcaption>Clôture</figcaption>
+                    </figure>
+                    <figure class= "col">
+                        <img src= "i/tyMedailles.webp">
+                        <figcaption>Remise des médailles</figcaptioiran>
+                    </figure>
+                </div>
+                <nav>
+                    <a href="#">
+                        <button>
+                            <span>
+                                En voir plus >
+                            </span>
+                        </button>
+                    </a>
+                </nav>
+            </section>
+            <!--4 : Médailles-->
+            <section class="sectionMiddle">
+                <h2>Médailles</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>PAYS</th>
+                            <th class="gold mdal"><span><img src="i/or.webp">Or</span></th>
+                            <th class="silv mdal"><span><img src="i/argent.webp">Argent</span></th>
+                            <th class="brnz mdal"><span><img src="i/bronze.webp">Bronze</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>USA</td>
+                            <td>40</td>
+                            <td>44</td>
+                            <td>42</td>
+                        </tr>
+                        <tr>
+                            <td>Chine</td>
+                            <td>40</td>
+                            <td>27</td>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <td>Japon</td>
+                            <td>20</td>
+                            <td>12</td>
+                            <td>13</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <img id="toggle-rows-button" src="i/down.webp" alt="down arrow">
+            </section>
+            <!--5 : exploit athlété-->
+            <section class="sectionLeft">
+                <figure class = "fltr">
+                    <img width="150px" height="auto" src="i/badass.webp" alt="logo escrime sabre">
+                    <figcaption>
+                        Yusuf Dikeç, tireur turque ayant <br>
+                        fait sensation sur internet
+                    <figcaption>
+                </figure>
+                <h2>les athlètes et leurs exploits</h2>
+                <p>
+                    Cette années, de nombreux athlètes se sont démarqués<br>
+                    par de nombreux exploit. Certains ont même brisé des<br>
+                    records du monde ! Tandis que d'autres se sont surtout <br>
+                    imposés par leur attitude. <br>
+                </p>
+                <nav>
+                    <a href="#">
+                        <button>
+                            <span>
+                                En voir plus >
+                            </span>
+                        </button>
+                    </a>
+                </nav>
+            </section>
+            <!--6 : sites-->
+            <section class="sectionRight">
+                <h2>Les différents sites</h2>
+                <figure class = "fltr">
+                    <img src = "i/eiffel.jpg" style="margin-top: -20px; border-radius: 16px;">
+                </figure>
+                <p>
+                    Les Jeux Olympiques 2024 se déroulent dans des lieux<br>
+                    emblématiques de Paris et ses environs. Le Stade de France<br> 
+                    accueille les cérémonies et l'athlétisme, tandis que la Tour<br> 
+                    Eiffel sert de décor aux épreuves de beach-volley. 
+                </p>
+                <nav>
+                    <a href="#">
+                        <button>
+                            <span>
+                                En voir plus >
+                            </span>
+                        </button>
+                    </a>
+                </nav>
+            </section>
+            <!--7 : Chiffres-->
+            <section class="sectionLeft">
+                <h2>Quelques chiffres</h2>
+                <article class = "grid48">
+                    <ul>
+                       <li>92 records battus</li>
+                       <li>7 pays ayant eu leur premières médaille</li>
+                       <li>12 millions de tickets vendus</li>
+                       <li>14900 athlètes</li>
+                    </ul>
+                    <ul>
+                       <li>300 collectes d'invendus pour associations</li>
+                       <li>56 sites sportifs</li>
+                       <li>670000 spectateurs pendant la journée la plus fréquentée</li>
+                       <li>480 fontaines à eau pour réduire le plastique</li>
+                    </ul>
+
+                </article>
+                <nav>
+                    <a href="#">
+                        <button>
+                            <span>
+                                En voir plus >
+                            </span>
+                        </button>
+                    </a>
+                </nav>
+            </section>
+            <!--8 : exploit-->
+            <section class="sectionRight">
+                <h2>Les exploits</h2>
+                <figure class = "fltr">
+                    <img src = "i/kevinmayer.webp" style="border-radius: 16px;">
+                    <figcaption>Kevin Mayer<figcaption>
+                </figure>
+                <p>
+                    Les Jeux Olympiques 2024 à Paris ont offert des moments inoubliables, avec des <br>
+                    exploits historiques. L'athlète français Kevin Mayer a brillé en remportant l'or au <br>
+                    décathlon, établissant un nouveau record olympique. La nageuse américaine Katie <br>
+                    Ledecky a confirmé sa domination avec plusieurs médailles d'or en natation.<br>
+                </p>
+                <nav>
+                    <a href="#">
+                        <button>
+                            <span>
+                                En voir plus >
+                            </span>
+                        </button>
+                    </a>
+                </nav>
+            </section>
+            <!--9 : sport-->
+            <section class="sectionMiddle">
+                <h2>Les sports</h2>
+                <div class = "grid13">
+                    <figure>
+                        <img src="i/pictAthletics.webp">
+                        <figcaption>
+                            Athlétisme
+                        <figcaption>
+                    </figure>
+                    <figure>
+                        <img src="i/pictBasketball.webp">
+                        <figcaption>
+                            Basketball
+                        <figcaption>
+                    </figure>
+                    <figure>
+                        <img src="i/pictCanoe.webp">
+                        <figcaption>
+                            Canoë
+                        <figcaption>
+                    </figure>
+                    <figure>
+                        <img src="i/pictClimbing.webp">
+                        <figcaption>
+                            Escalade
+                        <figcaption>
+                    </figure>
+                    <figure>
+                        <img src="i/pictCyclism.webp">
+                        <figcaption>
+                            Cyclisme
+                        <figcaption>
+                    </figure>
+                    <figure>
+                        <img src="i/pictFencing.webp">
+                        <figcaption>
+                            Escrime
+                        <figcaption>
+                    </figure>
+                    <figure>
+                        <img src="i/pictGymnastics.webp">
+                        <figcaption>
+                            Gymnastique
+                        <figcaption>
+                    </figure>
+                    <figure>
+                        <img src="i/pictHandball.webp">
+                        <figcaption>
+                            Handball
+                        <figcaption>
+                    </figure>
+                    <figure>
+                        <img src="i/pictModernPentathlon.webp">
+                        <figcaption>
+                            Pentathlon Moderne
+                        <figcaption>
+                    </figure>
+                    <figure>
+                        <img src="i/pictPingPong.webp">
+                        <figcaption>
+                            Tennis de table
+                        <figcaption>
+                    </figure>
+                    <figure>
+                        <img src="i/pictVolleyball.webp">
+                        <figcaption>
+                            Volleyball
+                        <figcaption>
+                    </figure>
+                    <figure>
+                        <img src="i/pictWaterpolo.webp">
+                        <figcaption>
+                            Waterpolo
+                        <figcaption>
+                    </figure>
+                    <figure>
+                        <img src="i/pictWeightlifting.webp">
+                        <figcaption>
+                            Haltérophilie
+                        <figcaption>
+                    </figure>
+                    <figure>
+                        <img src="i/pictWrestling.webp">
+                        <figcaption>
+                            Lutte
+                        <figcaption>
+                    </figure>
+
+                </div>
+                <nav>
+                    <a href="#">
+                        <button>
+                            <span>
+                                En voir plus >
+                            </span>
+                        </button>
+                    </a>
+                </nav>
+
+            </section>
+            <!--10 : fédérations-->
+            <section class="sectionLeft">
+                <h2>Les fédérations sportives et leurs compétitions</h2>
+                <div>
+                    <figure>
+                        <img src = "i/fedFie.webp">
+                        <figcaption>
+                            Fédération Internationale d'Escrime
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src = "i/fedWorldAthletics.webp">
+                        <figcaption>
+                            World Athletics
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src = "i/fedBasketbal.webp">
+                        <figcaption>
+                            FIBA
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src = "i/fedWorldAqua.webp">
+                        <figcaption>
+                            World Aquatics
+                        </figcaption>
+                    </figure>
+                </div>
+                <nav>
+                    <a href="#">
+                        <button>
+                            <span>
+                                En voir plus >
+                            </span>
+                        </button>
+                    </a>
+                </nav>
+            </section>
+            <!--11 : partenaires-->
+            <section class="sectionRight">
+                <h2>Faites connaissance avec nos partenaires</h2>
+                <div>
+                    <figure>
+                        <img src ="i/logoAirfrance.webp">
+                        <figcaption>
+                            Air France
+                        <figcaption>
+                    </figure>
+                    <figure>
+                        <img src ="i/logoOmega.webp">
+                        <figcaption>
+                            Omega
+                        <figcaption>
+                    </figure>
+                     <figure>
+                        <img src ="i/logoDecath.webp">
+                        <figcaption>
+                            Decathlon
+                        <figcaption>
+                    </figure>
+                     <figure>
+                        <img src ="i/logoCarrouf.webp">
+                        <figcaption>
+                            Carrefour
+                        <figcaption>
+                    </figure>
+                     <figure>
+                        <img src ="i/logoEdf.webp">
+                        <figcaption>
+                            EDF
+                        <figcaption>
+                    </figure>
+                     <figure>
+                        <img src ="i/logoDanone.webp">
+                        <figcaption>
+                            Danone
+                        <figcaption>
+                    </figure>
+
+                </div>
+                <nav>
+                    <a href="#">
+                        <button>
+                            <span>
+                                En voir plus >
+                            </span>
+                        </button>
+                    </a>
+                </nav>
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <figure>
+                    <img src="i/footerlogo.webp" alt="logo JO 2024">
+                </figure>
+                <div>
+                    <h4>Jeux Olympiques</h4>
+                    <a href=""><p>Tableau des médailles</p></a>
+                    <a href="discipline.html"><p>Les Disciplines</p></a>
+                    <a href="epreuve.html"><p>Les Epreuves</p></a>
+                    <a href="sportifs.html"><p>Les Sportifs</p></a>
+                </div>
+                <div>
+                    <h4>Jeux Paralympiques</h4>
+                    <a href=""><p>Tableau des médailles</p></a>
+                    <a href="discipline.html"><p>Les Disciplines</p></a>
+                    <a href="epreuve.html"><p>Les Epreuves</p></a>
+                    <a href="sportifs.html"><p>Les Sportifs</p></a>
+                </div>
+                <div>
+                    <h4>Chiffres clefs</h4>
+                    <a href="https://ent.univ-rennes1.fr"><p>Résultats finaux</p></a>
+                    <a href="https://ent.univ-rennes1.fr"><p>Dates et lieux</p></a>
+                    <a href="https://ent.univ-rennes1.fr"><p>Actualités</p></a>
+                    <a href="https://ent.univ-rennes1.fr"><p></p></a>
+                </div>
+                <div>
+                    <h4>Nous suivre sur</h4>
+                    <div>
+                        <span><a href="https://tiktok.com" target="_blank"><img src="i/tiktok.webp" alt="tiktok"></a></span>
+                        <span><a href="https://instagram.com" target="_blank"><img src="i/instalogo.webp" alt="instagram"></a></span>
+                        <span><a href="https://youtube.com" target="_blank"><img src="i/ytlogo.webp" alt="youtube"></a></span>
+                    </div>
+                    <div>
+                        <span><a href="https://x.com" target="_blank"><img src="i/xlogo.webp" alt="x or twitter"></a></span>
+                        <span><a href="https://facebook.com" target="_blank"><img src="i/fblogo.webp" alt="facebook"></a></span>
+                    </div>
+                </div>
+            </nav>
+            <aside>
+                <span><a href="https://tiktok.com" target="_blank"><img src="i/tiktok.webp" alt="tiktok"></a></span>
+                <span><a href="https://instagram.com" target="_blank"><img src="i/instalogo.webp" alt="instagram"></a></span>
+                <span><a href="https://youtube.com" target="_blank"><img src="i/ytlogo.webp" alt="youtube"></a></span>
+                <span><a href="https://x.com" target="_blank"><img src="i/xlogo.webp" alt="x or twitter"></a></span>
+                <span><a href="https://facebook.com" target="_blank"><img src="i/fblogo.webp" alt="facebook"></a></span>
+            </aside>
+            <hr>
+            <article>
+                <p><a href="https://ent.univ-rennes1.fr">Politique de confidentialité</a></p>
+                <p><a href="https://ent.univ-rennes1.fr">Conditions d'utilisation</a></p>
+                <p>Copyright 2024. Tous droits reservés.</p>
+            </article>
+        </footer>
+    </body>
+</html>
